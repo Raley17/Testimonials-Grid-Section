@@ -1,0 +1,40 @@
+:root {
+  --color-1: hsl(260, 100%, 95%);
+  --color-2: hsl(264, 82%, 80%);
+  --color-3: hsl(263, 55%, 52%);
+  --color-4: hsl(0, 0%, 100%);
+  --color-5: hsl(214, 17%, 92%);
+  --color-6: hsl(0, 0%, 81%);
+  --color-7: hsl(224, 10%, 45%);
+  --color-8: hsl(217, 19%, 35%);
+  --color-9: hsl(219, 29%, 14%);
+  --color-10: hsl(0, 0%, 7%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+}
+
+section {
+  padding: 3em;
+  color: var(--color-4);
+  background-color: var(--color-10);
+  margin: 1em;
+  border-radius: 1em;
+
+  h2 {
+    font-size: 1.5em;
+    margin: 1em 0em;
+  }
+  p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+}
