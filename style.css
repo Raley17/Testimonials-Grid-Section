@@ -28,20 +28,20 @@ body {
 }
 
 section {
-  width: 27em;
-  padding: 3em;
+  width: 15em;
+  padding: 2em;
   color: var(--color-4);
   background-color: var(--color-10);
   margin: 1em;
-  border-radius: 1em;
+  border-radius: 0.5em;
 
   h2 {
-    font-size: 1.75em;
+    font-size: 1.25em;
     margin: 1em 0em;
-    font-weight: 600;
+    font-weight: 500;
   }
   p {
-    font-size: 1em;
+    font-size: 0.75em;
     line-height: 1.5em;
     padding: 0em 1em 0em 0em;
   }
@@ -53,13 +53,13 @@ section {
   align-items: center;
   gap: 1em;
   img {
-    width: 2.25em;
-    height: 2.25em;
+    width: 2em;
+    height: 2em;
     border-radius: 50em;
   }
 
   .verified {
-    font-size: 0.9em;
+    font-size: 0.5em;
     font-weight: 400;
   }
 }
@@ -76,20 +76,20 @@ section {
 .two {
   background-color: var(--color-8);
   color: var(--color-4);
-  box-shadow: rgba(0, 0, 0, 0.4) 15px 60px 120px;
+  box-shadow: rgba(0, 0, 0, 0.4) 15px 60px 240px;
 }
 
 .three {
-  box-shadow: rgba(0, 0, 0, 0.4) 15px 60px 120px;
+  box-shadow: rgba(0, 0, 0, 0.4) 15px 60px 240px;
 }
 
 .four {
-  box-shadow: rgba(0, 0, 0, 0.4) 15px 60px 120px;
+  box-shadow: rgba(0, 0, 0, 0.4) 15px 60px 240px;
   background-color: var(--color-9);
 }
 
 .five {
-  box-shadow: rgba(0, 0, 0, 0.4) 15px 60px 120px;
+  box-shadow: rgba(0, 0, 0, 0.4) 15px 60px 240px;
 }
 
 .three,
@@ -111,10 +111,13 @@ footer {
   article {
     width: 102em;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   section {
-    width: 25em;
+    width: 17em;
+    margin: 0.75em;
   }
 
   img {
@@ -125,7 +128,11 @@ footer {
     display: flex;
 
     .one {
-      width: 50em;
+      width: 34em;
+      background-image: url(./images/bg-pattern-quotation.svg);
+      background-repeat: no-repeat;
+      background-size: 7em;
+      background-position: 23em 0em;
     }
   }
 
@@ -133,7 +140,17 @@ footer {
     display: flex;
 
     .four {
-      width: 50em;
+      width: 34em;
     }
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .five {
+    height: 37.5em;
   }
 }
