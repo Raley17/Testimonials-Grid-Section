@@ -109,6 +109,7 @@ footer {
 
 @media screen and (min-width: 1440px) {
   article {
+    margin-top: 1em;
     width: 102em;
     display: flex;
     justify-content: center;
